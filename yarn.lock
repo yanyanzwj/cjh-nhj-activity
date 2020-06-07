@@ -669,6 +669,53 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.2", "@better-scroll/core@^2.0.0-beta.9":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.0.0-beta.9.tgz#2a7a985368cc0b8abc435fbe33e98096484df40e"
+  integrity sha512-5uAr6tjI5Wft3Y4YlCTGnZ3WemqtEfQoViElVgCn0xFJhPtbmP7LVYa4OCLbzwMT1B7AofEkovvEdo/MrA3Q/A==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.0-beta.9"
+
+"@better-scroll/nested-scroll@^2.0.0-beta.2":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/nested-scroll/-/nested-scroll-2.0.0-beta.9.tgz#a4ce2961e16e96505b3105e4a053b4780f947bf6"
+  integrity sha512-nPGLlfQnGVYgY9yx8SMVOBx4unJXh5uURi24RrjpbXx74mDTjpNxFqJSx4d03nEqFztINWpkmUTdiZh8qX3qcg==
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.9"
+
+"@better-scroll/observe-dom@^2.0.0-beta.2":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-dom/-/observe-dom-2.0.0-beta.9.tgz#5568ac33d408a536dff5a5773374fc7232a06edc"
+  integrity sha512-/a0cS51EC8hhp/NN55jp1wffTsE2LyrWlVO1EdYOUna9qrPVLUbV0XY0Tk2XTGOch2UY+h4ZA3zNtr4fYskqiw==
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.9"
+
+"@better-scroll/pull-down@^2.0.0-beta.2":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-down/-/pull-down-2.0.0-beta.9.tgz#dfa318c7b0c9ebbd5acffed381cf9fa2a4f54429"
+  integrity sha512-+VJIRY7RRTn6MvERGQ1Zv/7I6r3zy2Vo4vUdI3msoGhkGBbLGHSA4iUK5ur5Q47P88cg/LwSS9dzVUQ4g5Ww8w==
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.9"
+
+"@better-scroll/pull-up@^2.0.0-beta.2":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.0.0-beta.9.tgz#36928bfdcd5d440fefe8ea073b0e3d9eb132c50a"
+  integrity sha512-igeZ+3/8NVnkLA1+7sm8/JkUqo/cFhrCZlkVxu0c9E9jib3gv3HIehp9uyeN4Xgok2t4OgHRgZ9uLxNvq3Uu2w==
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.9"
+
+"@better-scroll/shared-utils@^2.0.0-beta.9":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.0.0-beta.9.tgz#72e455793ebaa617e102edd58b2ce8d710883f17"
+  integrity sha512-WKCo1E3C6zyU2orkoPLAXvycTZTM8j+8wAWL5G/8Q/IkXRTcClsKGNtgGfKRCtdsF0NLJyE64F3nbKpDgQcPYw==
+
+"@better-scroll/slide@^2.0.0-beta.2":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@better-scroll/slide/-/slide-2.0.0-beta.9.tgz#611b2c7bdc2c415538f3776772dcb15e1765f205"
+  integrity sha512-NF0lJPfDAyw84uB3IITIe52Vqzd/wE2RDlsnOOq6RmnH/v0kMvbQqEhlwRQJoPWSyLjkZ3JXiY/bMMgRQGhlZg==
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.9"
+
 "@hapi/address@2.x.x":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.2.tgz#1c794cd6dbf2354d1eb1ef10e0303f573e1c7222"
@@ -2128,12 +2175,19 @@ circular-json@^0.3.1:
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
   integrity sha512-UZK3NBx2Mca+b5LsG7bY183pHWt5Y1xts4P3Pz7ENTwGVnJOUWbRb3ocjvX7hx9tq/yTAdclXm9sZ38gNuem4A==
 
-cjh-ui-vue@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/cjh-ui-vue/-/cjh-ui-vue-0.4.0.tgz#6dae3c834b52ec07b4dd32514ce8e1d8d369da9e"
-  integrity sha512-rrJMZeNHmohZ05DWJ3748wYWY5SJeUiLmNVz5pwGmImYKMGuR7hb4skayJZzqgSEZaWTMqDLAZacrGwRrEL0hA==
+cjh-ui-vue@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/cjh-ui-vue/-/cjh-ui-vue-0.5.9.tgz#d801a71c8cbfe7f68e9cca776a023bad41e0d4d3"
+  integrity sha512-AVnvhfes9mMvdlj8Xy3smfy13r1AF67TQVp9jexk8Gww5/QQkXI0UAdeyidp7EpERJ20cVezmhq/X2KrSbtH/Q==
   dependencies:
+    "@better-scroll/core" "^2.0.0-beta.2"
+    "@better-scroll/nested-scroll" "^2.0.0-beta.2"
+    "@better-scroll/observe-dom" "^2.0.0-beta.2"
+    "@better-scroll/pull-down" "^2.0.0-beta.2"
+    "@better-scroll/pull-up" "^2.0.0-beta.2"
+    "@better-scroll/slide" "^2.0.0-beta.2"
     core-js "^2.6.5"
+    swiper "^5.2.0"
     vue "^2.6.10"
     vue-router "^3.0.3"
 
@@ -3039,6 +3093,13 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom7@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  integrity sha512-xnhwVgyOh3eD++/XGtH+5qBwYTgCm0aW91GFgPJ3XG+jlsRLyJivnbP0QmUBFhI+Oaz9FV0s7cxgXHezwOEBYA==
+  dependencies:
+    ssr-window "^2.0.0"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -8028,6 +8089,11 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+  integrity sha512-NXzN+/HPObKAx191H3zKlYomE5WrVIkoCB5IaSdvKokxTpjBdWfr0RaP+1Z5KOfDT0ZVz+2tdtiBkhsEQ9p+0A==
+
 ssri@^5.2.4:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.3.0.tgz#ba3872c9c6d33a0704a7d71ff045e5ec48999d06"
@@ -8303,6 +8369,14 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^5.2.0:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-5.4.2.tgz#ed4cf60ea7100edac2703e406ae4ae2c43d33e7c"
+  integrity sha512-c6E5kDC3xAhnhdV0omIkDKLr+qNxzMfTO3Nw/T4xNAwSMoJwPvgsRoVzDBEUQbkWqwomHsvcjPMn12VQ6IHDTQ==
+  dependencies:
+    dom7 "^2.1.5"
+    ssr-window "^2.0.0"
 
 table@4.0.2:
   version "4.0.2"
@@ -9051,9 +9125,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"
