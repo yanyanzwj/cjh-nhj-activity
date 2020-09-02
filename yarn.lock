@@ -669,6 +669,53 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.2", "@better-scroll/core@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.0.2.tgz#0cd1870d5c6a3307201d2ae0a5650f0599b0eaf8"
+  integrity sha512-4EZj4mU8s3e2bfemL17giR79mIrh6+N0fzrznDH4ytZCwkPvARVAiPRCzVHc9QN8yJoKSWTysLoIoaKfWPXaUQ==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.2"
+
+"@better-scroll/nested-scroll@^2.0.0-beta.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/nested-scroll/-/nested-scroll-2.0.2.tgz#0bcd11cc76d62e86edf2197e9fc9f12372f37d96"
+  integrity sha512-5OvDQHbsq6a3QtqODlvtgfGreV6MXK7J0DgTsEmuHS8vrmcrCn3oktA2J1fl78Ikaav2qoVz7AV5nyYgs3J8NA==
+  dependencies:
+    "@better-scroll/core" "^2.0.2"
+
+"@better-scroll/observe-dom@^2.0.0-beta.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-dom/-/observe-dom-2.0.2.tgz#258efac40d4ea79517383dbdad9fe3edbc7f19c6"
+  integrity sha512-+ZPp/XtaUEsHZAElv+ozKA/jOidF6knUkzy/fzkhyBEA04O1MM52+1HyqZy3GVoCRTy9ryvuIfy8I5CBcz+GnA==
+  dependencies:
+    "@better-scroll/core" "^2.0.2"
+
+"@better-scroll/pull-down@^2.0.0-beta.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-down/-/pull-down-2.0.2.tgz#f7a266ce55106a33231a8b4d9c0188df82d27685"
+  integrity sha512-NKB70+PwNnt6u4PPcHUqjI0DqbLXPyBjZa/Y0+1h3sCJOu9dGFy4b21+lmAqNvoKUSz6rYy1gmeQm/ZFwjzm/w==
+  dependencies:
+    "@better-scroll/core" "^2.0.2"
+
+"@better-scroll/pull-up@^2.0.0-beta.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.0.2.tgz#c15301303568191a2b1e66cefd2c50911301c432"
+  integrity sha512-IC67/5+X2jjHQzfaKuA1qxcBrQMOYFotL239X2bcjGvUmvc0V8Omy0qibjRlIagT+4v8MsNcy4lxSTawjg+TyA==
+  dependencies:
+    "@better-scroll/core" "^2.0.2"
+
+"@better-scroll/shared-utils@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.0.2.tgz#3b08aa9724615fc5dcd60cf953d77022b33f399d"
+  integrity sha512-7IIoFbpA8eR22o44q039D3s+35mCcEzl1o7vXHGaSJY8+kEBYOVOF9gOUure2w2lAhbd387GPMM3JB01p8Y4pA==
+
+"@better-scroll/slide@^2.0.0-beta.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/slide/-/slide-2.0.2.tgz#dde2793d1894d36abae60a577e1488df36b94773"
+  integrity sha512-k24xPAywgIPYHzSe2HoIh8dKvM8MSHnAVkDV0Ctcm5I62PYnJFsIN18WkQgfKBKov05gbiX0EHsYso+NWkEsJA==
+  dependencies:
+    "@better-scroll/core" "^2.0.2"
+
 "@hapi/address@2.x.x":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.2.tgz#1c794cd6dbf2354d1eb1ef10e0303f573e1c7222"
@@ -1654,9 +1701,9 @@ binary-extensions@^2.0.0:
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
 
 bl@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-3.0.0.tgz#3611ec00579fd18561754360b21e9f784500ff88"
-  integrity sha512-EUAyP5UHU5hxF8BPT0LKW8gjYLhq1DQIcneOX/pL/m2Alo+OYDQAJlHq+yseMP50Os2nHXOSic6Ss3vSQeyf4A==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-3.0.1.tgz#1cbb439299609e419b5a74d7fce2f8b37d8e5c6f"
+  integrity sha512-jrCW5ZhfQ/Vt07WX1Ngs+yn9BDqPL/gw28S7s9H6QK/gupnizNzJAss5akW20ISgOrbLTlXOOCTJeNUQqruAWQ==
   dependencies:
     readable-stream "^3.0.1"
 
@@ -2128,12 +2175,19 @@ circular-json@^0.3.1:
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
   integrity sha512-UZK3NBx2Mca+b5LsG7bY183pHWt5Y1xts4P3Pz7ENTwGVnJOUWbRb3ocjvX7hx9tq/yTAdclXm9sZ38gNuem4A==
 
-cjh-ui-vue@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/cjh-ui-vue/-/cjh-ui-vue-0.4.0.tgz#6dae3c834b52ec07b4dd32514ce8e1d8d369da9e"
-  integrity sha512-rrJMZeNHmohZ05DWJ3748wYWY5SJeUiLmNVz5pwGmImYKMGuR7hb4skayJZzqgSEZaWTMqDLAZacrGwRrEL0hA==
+cjh-ui-vue@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/cjh-ui-vue/-/cjh-ui-vue-0.5.9.tgz#d801a71c8cbfe7f68e9cca776a023bad41e0d4d3"
+  integrity sha512-AVnvhfes9mMvdlj8Xy3smfy13r1AF67TQVp9jexk8Gww5/QQkXI0UAdeyidp7EpERJ20cVezmhq/X2KrSbtH/Q==
   dependencies:
+    "@better-scroll/core" "^2.0.0-beta.2"
+    "@better-scroll/nested-scroll" "^2.0.0-beta.2"
+    "@better-scroll/observe-dom" "^2.0.0-beta.2"
+    "@better-scroll/pull-down" "^2.0.0-beta.2"
+    "@better-scroll/pull-up" "^2.0.0-beta.2"
+    "@better-scroll/slide" "^2.0.0-beta.2"
     core-js "^2.6.5"
+    swiper "^5.2.0"
     vue "^2.6.10"
     vue-router "^3.0.3"
 
@@ -3039,6 +3093,13 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom7@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  integrity sha512-xnhwVgyOh3eD++/XGtH+5qBwYTgCm0aW91GFgPJ3XG+jlsRLyJivnbP0QmUBFhI+Oaz9FV0s7cxgXHezwOEBYA==
+  dependencies:
+    ssr-window "^2.0.0"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -7261,9 +7322,9 @@ read-pkg@^5.0.0:
     util-deprecate "~1.0.1"
 
 readable-stream@^3.0.1, readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.4.0.tgz#a51c26754658e0a3c21dbf59163bd45ba6f447fc"
-  integrity sha512-jItXPLmrSR8jmTRmRWJXCnGJsfy85mB3Wd/uINMXA65yrnFo0cPClFIUWzo2najVNSl+mx7/4W8ttlLWJe99pQ==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
+  integrity sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -7626,10 +7687,15 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
+safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
   integrity sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
+
+safe-buffer@~5.2.0:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-regex@^1.1.0:
   version "1.1.0"
@@ -8028,6 +8094,11 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+  integrity sha512-NXzN+/HPObKAx191H3zKlYomE5WrVIkoCB5IaSdvKokxTpjBdWfr0RaP+1Z5KOfDT0ZVz+2tdtiBkhsEQ9p+0A==
+
 ssri@^5.2.4:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.3.0.tgz#ba3872c9c6d33a0704a7d71ff045e5ec48999d06"
@@ -8303,6 +8374,14 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^5.2.0:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-5.4.5.tgz#a350f654bf68426dbb651793824925512d223c0f"
+  integrity sha512-7QjA0XpdOmiMoClfaZ2lYN6ICHcMm72LXiY+NF4fQLFidigameaofvpjEEiTQuw3xm5eksG5hzkaRsjQX57vtA==
+  dependencies:
+    dom7 "^2.1.5"
+    ssr-window "^2.0.0"
 
 table@4.0.2:
   version "4.0.2"
