@@ -669,6 +669,53 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.2", "@better-scroll/core@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.0.3.tgz#467cad0bebac01ba8766e985ea5e4e70cfa313b8"
+  integrity sha512-SCRs2dgOoBM2vOvDyRsxpXQAI3eDeibnUQYsmLDIp3XU3MFbBviBPhuoAtIH/87ZwtUIot7AfUu3RU5rOn/fsg==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.3"
+
+"@better-scroll/nested-scroll@^2.0.0-beta.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/nested-scroll/-/nested-scroll-2.0.3.tgz#550709d016d263a873902587ecaa3a4923f41cc2"
+  integrity sha512-yijWSAB4uNmLGgWXn3Gztdiej/vsOM3JCu0lbUU+E8d4Jm792psnGy1+5ItrktadwS+jMq91jbyi1uh3B4er0Q==
+  dependencies:
+    "@better-scroll/core" "^2.0.3"
+
+"@better-scroll/observe-dom@^2.0.0-beta.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-dom/-/observe-dom-2.0.3.tgz#9e37477e5a0aea12b0713f8ae59f4b9dfbd9a591"
+  integrity sha512-aUU83sK32FGV7VdRPLQJSEdRmU9tzrsxVncfjj/rzFYSWor9bFNTBB5zmlAMHplpVQi+YH1Fq2wDgdibXTc+pA==
+  dependencies:
+    "@better-scroll/core" "^2.0.3"
+
+"@better-scroll/pull-down@^2.0.0-beta.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-down/-/pull-down-2.0.3.tgz#8e87c584b84d402f73f99bccdc6789424ec672d6"
+  integrity sha512-yr8F3YwE+9AnYSUSscDHUlYnH7lSK1Jw3zTPaYxCM6dUoo/Mh4wv09fpuKN9UBwpOLJOdssF7CybYBWayV6/wQ==
+  dependencies:
+    "@better-scroll/core" "^2.0.3"
+
+"@better-scroll/pull-up@^2.0.0-beta.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.0.3.tgz#adfe89d8cbbe6309de4a266925c2dabb22c07193"
+  integrity sha512-iqpmNWYHwczbE1uGQBFD+gwvdmRp/nPA6A4KPgSvjiS4IySlZJ61lg7QYETn3/ZnDrcWwbxmbguesDOis7LcHw==
+  dependencies:
+    "@better-scroll/core" "^2.0.3"
+
+"@better-scroll/shared-utils@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.0.3.tgz#9e0a061f0519ee6d86f66b2f36b2b863a664f131"
+  integrity sha512-FvIQbMStd6mfEyF0ptI1fCIJn/a8OakcCaYhE6yH2JMVln2t3Vv72VosorQPKPgmiS1krDOh8PP6FyCKNtKxoQ==
+
+"@better-scroll/slide@^2.0.0-beta.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@better-scroll/slide/-/slide-2.0.3.tgz#6263d51749982d29a0f88fc968c690c147a866cf"
+  integrity sha512-0Q14zYSD/oinBeX47PeVx8nnPW+PJ7Ov4PKmqu3aAkiVEWS+LAkoSuNY+crMZYbm1c42TNvzG3vV5eYOv6/lew==
+  dependencies:
+    "@better-scroll/core" "^2.0.3"
+
 "@hapi/address@2.x.x":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.2.tgz#1c794cd6dbf2354d1eb1ef10e0303f573e1c7222"
@@ -2128,12 +2175,19 @@ circular-json@^0.3.1:
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
   integrity sha512-UZK3NBx2Mca+b5LsG7bY183pHWt5Y1xts4P3Pz7ENTwGVnJOUWbRb3ocjvX7hx9tq/yTAdclXm9sZ38gNuem4A==
 
-cjh-ui-vue@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/cjh-ui-vue/-/cjh-ui-vue-0.4.0.tgz#6dae3c834b52ec07b4dd32514ce8e1d8d369da9e"
-  integrity sha512-rrJMZeNHmohZ05DWJ3748wYWY5SJeUiLmNVz5pwGmImYKMGuR7hb4skayJZzqgSEZaWTMqDLAZacrGwRrEL0hA==
+cjh-ui-vue@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/cjh-ui-vue/-/cjh-ui-vue-0.5.9.tgz#d801a71c8cbfe7f68e9cca776a023bad41e0d4d3"
+  integrity sha512-AVnvhfes9mMvdlj8Xy3smfy13r1AF67TQVp9jexk8Gww5/QQkXI0UAdeyidp7EpERJ20cVezmhq/X2KrSbtH/Q==
   dependencies:
+    "@better-scroll/core" "^2.0.0-beta.2"
+    "@better-scroll/nested-scroll" "^2.0.0-beta.2"
+    "@better-scroll/observe-dom" "^2.0.0-beta.2"
+    "@better-scroll/pull-down" "^2.0.0-beta.2"
+    "@better-scroll/pull-up" "^2.0.0-beta.2"
+    "@better-scroll/slide" "^2.0.0-beta.2"
     core-js "^2.6.5"
+    swiper "^5.2.0"
     vue "^2.6.10"
     vue-router "^3.0.3"
 
@@ -2814,7 +2868,7 @@ debug@=3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
+debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -3039,6 +3093,13 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom7@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  integrity sha512-xnhwVgyOh3eD++/XGtH+5qBwYTgCm0aW91GFgPJ3XG+jlsRLyJivnbP0QmUBFhI+Oaz9FV0s7cxgXHezwOEBYA==
+  dependencies:
+    ssr-window "^2.0.0"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -3521,9 +3582,9 @@ event-pubsub@4.3.0:
   integrity sha512-z7IyloorXvKbFx9Bpie2+vMJKKx1fH1EN5yiTfp8CiLOTptSYy1g8H4yDpGlEdshL1PBiFtBHepF2cNsqeEeFQ==
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.0.0"
@@ -3969,11 +4030,9 @@ follow-redirects@1.5.10:
     debug "=3.1.0"
 
 follow-redirects@^1.0.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
-  integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -4524,9 +4583,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -8028,6 +8087,11 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+  integrity sha512-NXzN+/HPObKAx191H3zKlYomE5WrVIkoCB5IaSdvKokxTpjBdWfr0RaP+1Z5KOfDT0ZVz+2tdtiBkhsEQ9p+0A==
+
 ssri@^5.2.4:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.3.0.tgz#ba3872c9c6d33a0704a7d71ff045e5ec48999d06"
@@ -8303,6 +8367,14 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^5.2.0:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-5.4.5.tgz#a350f654bf68426dbb651793824925512d223c0f"
+  integrity sha512-7QjA0XpdOmiMoClfaZ2lYN6ICHcMm72LXiY+NF4fQLFidigameaofvpjEEiTQuw3xm5eksG5hzkaRsjQX57vtA==
+  dependencies:
+    dom7 "^2.1.5"
+    ssr-window "^2.0.0"
 
 table@4.0.2:
   version "4.0.2"
