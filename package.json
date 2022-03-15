@@ -28,7 +28,7 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "lib-flexible": "^0.3.2",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "postcss-plugin-px2rem": "^0.8.1",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
